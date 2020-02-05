@@ -29,6 +29,7 @@ const Layout = ({ children }) => (
           ]}
         >
           <html lang="en" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.2.1/pixi.min.js"></script>
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className="Layout">{children}</div>
